@@ -12,6 +12,8 @@
   --container-color: #FAFAFA;
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
+  --dec-color: #385723;
+  
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -52,6 +54,7 @@ body.dark-theme{
   --container-color: #212121;
   --container-color-alt: #181616;
   --body-color: #2B2B2B;
+  --dec-color: #8DECB4;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -60,7 +63,7 @@ body.dark-theme{
   right: 0;
   top: 2.2rem;
   display: flex;
-  color: var(--text-color);
+  color: var(--dec-color);
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -75,7 +78,7 @@ body.dark-theme{
   right: 0;
   top: 4.2rem;
   display: flex;
-  color: var(--text-color);
+  color: var(--dec-color);
   font-size: .7rem;
   font-weight: 700;
   cursor: pointer;
@@ -102,7 +105,7 @@ body.scale-cv{
   top: 2.2rem;
   left: 0;
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: var(--dec-color);
   cursor: pointer;
 }
 
@@ -315,7 +318,7 @@ img{
 
 .nav__logo,
 .nav__toggle{
-  color: var(--title-color);
+  color: var(--dec-color);
   font-weight: var(--font-medium);
 }
 
@@ -357,7 +360,7 @@ img{
 
 /* Active menu link */
 .active-link{
-  color: var(--title-color);
+  color: var(--dec-color);
 }
 
 /*========== HOME ==========*/
@@ -393,23 +396,32 @@ img{
 
 .home__address{
   gap: 2rem;
+  color: var(--text-color);
+}
+.home__address:hover{
+  color: var(--title-color)
 }
 
 .home__information{
   display: flex;
   align-items: center;
   font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+.home__information:hover{
+  color: var(--title-color)
 }
 
 .home__icon{
   font-size: 1.2rem;
   margin-right: .25rem;
+  color: var(--dec-color)
 }
 
 .home__button-movil{
     display: inline-block;
     border: 1px solid var(--text-color);
-    color: var(--title-color);
+    color: var(--dec-color);
     padding: 1rem 2rem;
     border-radius: .25rem;
     transition: .3s;
@@ -442,6 +454,7 @@ img{
 .social__icon{
   font-size: 1.2rem;
   margin-right: .25rem;
+  color: var(--dec-color)
 }
 
 /*========== PROFILE ==========*/
@@ -466,7 +479,7 @@ img{
   display: block;
   width: 16px;
   height: 16px;
-  background-color: var(--text-color-light);
+  background-color: var(--dec-color);
   border-radius: 50%;
   margin-top: .25rem;
 }
@@ -476,7 +489,7 @@ img{
   display: block;
   width: 2px;
   height: 110%;
-  background-color: var(--text-color-light);
+  background-color: var(--dec-color);
   transform: translate(7px, 0 );
 }
 
@@ -539,7 +552,7 @@ img{
   display: inline-block;
   width: 5px;
   height: 5px;
-  background-color: var(--text-color);
+  background-color: var(--dec-color);
   border-radius: 50%;
   margin-right: .75rem;
 }
@@ -556,7 +569,10 @@ img{
 }
 
 /*========== REFERENCES ==========*/
-
+.references__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
 
 /*========== INTERESTS ==========*/
 .interest__container{
@@ -572,7 +588,7 @@ img{
 
 .interest__icon{
   font-size: 1.5rem;
-  color: var(--text-color-light);
+  color: var(--dec-color);
   margin-bottom: .25rem;
 }
 
@@ -594,7 +610,7 @@ img{
 
 .scrolltop__icon{
   font-size: 1.2rem;
-  color: var(--text-color);
+  color: var(--dec-color);
 }
 
 .show-scroll{

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/fav.png" sizes="512x512">
+    
+    <!-- Meta tags -->
+    <meta name="title" content="Facundo Villafañe - CV">
+    <meta name="description" content="I am a passionate professional about aviation and education, 
+    with experience as an aircraft dispatcher and university professor. In the aviation realm, 
+    I possess a deep understanding of regulations and operational procedures, 
+    ensuring safe and successful operations. As an educator, I am committed to inspiring and guiding students
+     towards academic and professional excellence, integrating technological tools to prepare them for the challenges of the workforce.">
+    <meta name="keywords" content="aviation, coding, html, css, javascript, react">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Facundo Villafane">
+    
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Facundo Villafane Resume ">
+    <meta itemprop="description" content="Personal CV">
+    <meta itemprop="image" content="assets/img/metacv.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Facundo Villafane Resume">
+    <meta property="og:description" content="Personal CV">
+    <meta property="og:image" content="assets/img/metacv.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Facundo Villafane Resume ">
+    <meta name="twitter:description" content="Personal CV">
+    <meta name="twitter:image" content="assets/img/metacv.png">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Facundo-Villafane</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Facundo Villafañe</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Courses
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li> ----->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/p-pic.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">FACUNDO <b>VILLAFAÑE</b></h1>
+                            <h3 class="home__profession">Flight Dispatcher</h3>
+
+                            <!-- Button to download the pdf in folder. Available for desktop. -->
+                            <div>
+                                <a download="" href="assets/pdf/Facundo-Villafane_CV_EN.pdf" class="home__button-movil">Download CV</a>
+                            </div>
+                        </div>
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> CABA - Buenos Aires - Argentina
+                            </span>
+                            <span class="home__information">
+                                <a href="mailto:favillafane@gmail.com" class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> 
+                                    favillafane@gmail.com
+                                </a>
+                            </span>
+                            <span class="home__information">
+                                <a href="https://api.whatsapp.com/send?phone=541134477511&text=Hi%2C%20Facundo%20..." class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> +5491134477511
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                    <!--Lang changer-->
+                        <a class="change-lang" href="./ES.html">ESP</a>
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <a download="" href="assets/pdf/Facundo-Villafane_CV_EN.pdf">
+                    <i class='bx bx-download generate-pdf' title="Download CV" id=""></i></a>
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/facundovillafane/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> / facundovillafane
+                        </a>
+                        <a href="https://www.instagram.com/facu.villafane1/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram-alt social__icon'></i> @facu.villafane1
+                        </a>
+                        <a href="https://github.com/Facundo-Villafane" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> / Facundo-Villafane
+                        </a>
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <!--<p class="profile__description">
+                        Professional with experience in the aeronautical sector.
+                        Three words define me, <b>passion</b>, <b>learning</b>, and <b>technology</b>.
+                        Good at solving problems and doing what is necessary to prevent them from occurring.
+                        I am always learning new things, which led me to have a versatile profile.
+                    </p>-->
+                    <p class="profile__description">
+                    I am a passionate professional about aviation and education, with experience as an aircraft dispatcher and university
+                    professor. In the aviation realm, I possess a deep understanding of regulations and operational procedures, ensuring safe
+                    and successful operations. As an educator, I am committed to inspiring and guiding students towards academic and
+                    professional excellence, integrating tools to prepare them for the challenges of the workforce.
+                    </p>
+
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">FLIGHT DISPATCH</h3>
+                                <span class="education__studies">Ciac Avea</span>
+                                <span class="education__year">2018 - 2019</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">AIR CARGO BASICS</h3>
+                                <span class="education__studies">Icapa</span>
+                                <span class="education__year">2020 - 2020</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">COMMERCIAL AIRLINE ADMINISTRATION AND MANAGEMENT</h3>
+                                <span class="education__studies">National Technological University</span>
+                                <span class="education__year">2020 - 2021</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">REACT WEB DEVELOPER</h3>
+                                <span class="education__studies">Coderhouse</span>
+                                <span class="education__year">2021 - 2022</span>
+                            </div>
+                        </div>
+                        
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">UX/UI DESIGNER</h3>
+                                <span class="education__studies">Coderhouse</span>
+                                <span class="education__year">2021 - 2022</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!--<span class="education__line"></span>-->
+                            </div>
+                        
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">BACHELOR'S DEGREE IN PSYCHOLOGY</h3>
+                                <span class="education__studies">UCSE</span>
+                                <span class="education__year">2010 - 2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Amadeus
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Navitaire
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Go Now
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Radixx
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>Office Suite
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span>React
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                        
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Full Professor of Ticketing and Reservations for the University Technical Degree in Aeronautical Management.</h3>
+                                <span class="experience__company">2023 - Currently | Universidad Tecnológica Nacional</span>
+                                <p class="experience__description">I design classes, prepare materials, evaluate students, and teach them how to use reservation systems, as well as the
+                                fundamentals of pricing and revenue management.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!--<span class="experience__line"></span>-->
+                            </div>
+                        
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Assistant Professor in Air Cargo and Mail Handling for the University Technical Degree
+                                    in Aeronautical Management.</h3>
+                                <span class="experience__company">2024 - Currently | Universidad Tecnológica Nacional</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Ground Operations Coordinator for IBERIA / LEVEL</h3>
+                                <span class="experience__company">2022 - Currently | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Delegated Instructor for Ground Operations Coordinator for JetSMART</h3>
+                                <span class="experience__company">2022 - Currently | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Aircraft Dispatch Coordinator for SKY AIRLINE</h3>
+                                <span class="experience__company">2021 - Currently | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Flight Dispatcher for PARANAIR</h3>
+                                <span class="experience__company">2021 - Currently | FlySeg</span>
+                                <p class="experience__description">Certified for Weight and Balance of CRJ-200 aircraft.</p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!--<span class="experience__line"></span>-->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Ground Operations Coordinator for JetSMART</h3>
+                                <span class="experience__company">2019 - Currently | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Passenger Service Leader </h3>
+                                <span class="experience__company">2018 | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!--<span class="experience__line"></span>-->
+                            </div>
+                        
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Passenger Service Agent </h3>
+                                <span class="experience__company">2018 | FlySeg</span>
+                                <p class="experience__description"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Courses</h2>
+
+                    <div class="certificates__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Induction Course for UTN Career Teachers</h3>
+                            <p class="certificate__description">Universidad Tecnológica Nacional | 2023-2024</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Pedagogical Tools for Virtual Classes</h3>
+                            <p class="certificate__description">Universidad Tecnológica Nacional | 2023
+                            </p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Amadeus System</h3>
+                            <p class="certificate__description">Escuela de Turismo de Córdoba | 2022 - 2023
+                            </p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Big Data / Data Analyst</h3>
+                            <p class="certificate__description">Codo a Codo | 2024
+                            </p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">International Aviation Law</h3>
+                            <p class="certificate__description">IATA | 2020
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== REFERENCES--> 
+                    <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content">
+                                <h3 class="references__title">Alberto Caceres | FlySeg S.A</h3>
+                                <p class="references__subtitle">+54 9 1168820635
+                                </p>
+                                <p class="references__subtitle">acaceres@securityflysec.com
+                                </p>
+                            </div>
+                            <div class="references__content">
+                                <h3 class="references__title">Andrés Bermejo | UTN</h3>
+                                <p class="references__subtitle">+54 9 1148677500
+                                </p>
+                                <p class="references__subtitle">abermejo@frba.utn.edu.ar
+                                </p>
+                            </div>
+                        </div>
+                    </section> 
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languages__container ">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Spanish | Native
+                                <!--<li class='languages__name2'>Native</li>-->
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English | C2
+                                <!--<li class='languages__name2'>Advanced</li>-->
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Portuguese | B1
+                                <!--<li class='languages__name2'>Conversational</li>-->
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title interst">Interest</h2>
+
+                    <div class="interest__container bd-grid">
+                        <div class="interest__content">
+                            <i class='bx bxs-plane-alt interest__icon' ></i>
+                            <span class="interest__name">Aviation</span>
+                        </div>
+                        <div class="interest__content">
+                            <i class='bx bx-code-alt interest__icon' ></i>
+                            <span class="interest__name">Coding</span>
+                        </div>
+                        <div class="interest__content">
+                            <i class='bx bx-headphone interest__icon' ></i>
+                            <span class="interest__name">Music</span>
+                        </div>
+                        <div class="interest__content">
+                            <i class='bx bxs-book interest__icon' ></i>
+                            <span class="interest__name">Read</span>
+                        </div>
+                        <div class="interest__content">
+                            <i class='bx bxs-camera interest__icon' ></i>
+                            <span class="interest__name">Photograpy</span>
+                        </div>
+                        <!--<div class="interest__content">
+                            <i class='bx bxs-pizza interest__icon' ></i>
+                            <span class="interest__name">Pizza</span>
+                        </div>-->
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
