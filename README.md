@@ -7,6 +7,6 @@ Responsive resume cv website using html, css and javascript. Light dark mode and
 ![Screenshot](desktopl.png) 
 \n
 ![Screenshot](desktopdark.png) 
-\n
+&nbsp;&nbsp;&nbsp;
 ![Screenshot](mobilel.png) &nbsp;
 ![Screenshot](mobiledark.png) &nbsp;
